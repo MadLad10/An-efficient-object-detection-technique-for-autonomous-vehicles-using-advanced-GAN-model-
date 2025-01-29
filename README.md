@@ -4,7 +4,7 @@
 This project, developed for CSE463 (Computer Vision: Fundamentals and Algorithms), presents an innovative approach to autonomous vehicle object detection through the integration of advanced generative adversarial networks (GAN) and real-time detection systems. This enhances autonomous vehicle reliability by training detection systems for extreme weather conditions.
 # Core Components
 1. Advanced GAN Implementation (Pix2Pix)
-  - **Weather Synthesis**
+
 
 - Generates realistic adverse weather conditions:
 
@@ -13,10 +13,7 @@ This project, developed for CSE463 (Computer Vision: Fundamentals and Algorithms
 - Low visibility conditions
 
 
-Creates synthetic training data to improve detection robustness
-
 2. Weather-Aware Object Detection (YOLOv5)
-  Optimized for adverse conditions:
 
   - Enhanced detection in challenging weather scenarios
   - Maintains accuracy during snow, rain, and fog. 
@@ -25,17 +22,17 @@ Creates synthetic training data to improve detection robustness
 Prerequisites
 Development environment requirements:
 
-Python 3.x
-TensorFlow/TensorFlow-GPU
-OpenCV
-PIL (Python Imaging Library)
+ - Python 3.x
+ - TensorFlow/TensorFlow-GPU
+ - OpenCV
+ - PIL (Python Imaging Library)
 # Implementation Guide
 Synthetic Data Generation Phase
 Generate diverse traffic scenarios:
 
-Access pix2pix2.ipynb via Jupyter Notebook
-Train model on autonomous vehicle dataset
-Generate synthetic traffic scenarios
+1. Access pix2pix2.ipynb via Jupyter Notebook
+2. Train model on autonomous vehicle dataset
+3. Generate synthetic traffic scenarios
 
 # Configuration Parameters
 Autonomous vehicle-specific settings:
