@@ -6,7 +6,15 @@ import cv2
 
 
 def run_yolo_on_directory(input_dir, output_dir, model_path='yolov5s', confidence_threshold=0.4):
-    
+    """
+    Runs YOLO on all images in the input directory and saves annotated results in the output directory.
+
+    Parameters:
+        input_dir (str): Path to the directory containing images.
+        output_dir (str): Path to the directory where results will be saved.
+        model_path (str): Path to the YOLO model.
+        confidence_threshold (float): Confidence threshold for detections.
+    """
     os.makedirs(output_dir, exist_ok=True)
 
     
