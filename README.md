@@ -4,22 +4,22 @@
 This project, developed for CSE463 (Computer Vision: Fundamentals and Algorithms), presents an innovative approach to autonomous vehicle object detection through the integration of advanced generative adversarial networks (GAN) and real-time detection systems. This enhances autonomous vehicle reliability by training detection systems for extreme weather conditions.
 # Core Components
 1. Advanced GAN Implementation (Pix2Pix)
-Specialized in weather condition synthesis:
+  Specialized in weather condition synthesis:
 
-Generates realistic adverse weather conditions:
+- Generates realistic adverse weather conditions:
 
-Heavy snow scenarios
-Rain and fog variations
-Low visibility conditions
+- Heavy snow scenarios
+- Rain and fog variations
+- Low visibility conditions
 
 
 Creates synthetic training data to improve detection robustness
 
 2. Weather-Aware Object Detection (YOLOv5)
-Optimized for adverse conditions:
+  Optimized for adverse conditions:
 
-Enhanced detection in challenging weather scenarios
-Maintains accuracy during snow, rain, and fog. 
+  - Enhanced detection in challenging weather scenarios
+  - Maintains accuracy during snow, rain, and fog. 
 
 # System Requirements
 Prerequisites
