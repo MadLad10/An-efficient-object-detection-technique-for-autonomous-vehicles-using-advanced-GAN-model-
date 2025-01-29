@@ -37,10 +37,10 @@ Generate diverse traffic scenarios:
 # Configuration Parameters
 Autonomous vehicle-specific settings:
 
-generated_images_directory: Location of synthetic scenarios
-detection_output_directory: Detection results storage
-model_path: Custom YOLO model path (default: yolov5s)
-confidence_threshold: Detection confidence setting (default: 0.4)
+- generated_images_directory: Location of synthetic scenarios
+- detection_output_directory: Detection results storage
+- model_path: Custom YOLO model path (default: yolov5s)
+- confidence_threshold: Detection confidence setting (default: 0.4)
 
 
 
