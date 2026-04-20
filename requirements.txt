@@ -1,0 +1,13 @@
+# PyTorch — install separately with the right CUDA version:
+#   CUDA 12.4:  pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+#   CPU only:   pip install torch torchvision
+#   Mac (MPS):  pip install torch torchvision
+
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+Pillow>=9.0.0
+tensorflow>=2.13.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
+Automold>=0.1.0
